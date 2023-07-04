@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interfaz">
+  <grid id="27dc6" binding="Jpanel" layout-manager="GridLayoutManager" row-count="10" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="811" height="512"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="d4a69" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12666039"/>
+          <text value="Equipos Participantes:"/>
+        </properties>
+      </component>
+      <component id="cc32" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12666039"/>
+          <text value="Asignar:"/>
+        </properties>
+      </component>
+      <component id="a9a0b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14766149"/>
+          <text value="Equipo:"/>
+        </properties>
+      </component>
+      <component id="b51f9" class="javax.swing.JComboBox" binding="comboBoxEquip">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c15f0" class="javax.swing.JButton" binding="asignarButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15264581"/>
+          <text value="Asignar"/>
+        </properties>
+      </component>
+      <component id="be044" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12666039"/>
+          <text value="Encuentros:"/>
+        </properties>
+      </component>
+      <component id="8c1a9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14766149"/>
+          <text value="Escoja:"/>
+        </properties>
+      </component>
+      <component id="be98f" class="javax.swing.JComboBox" binding="comboBoxEncuentro">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="62e47" class="javax.swing.JButton" binding="quemarDatosButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15264581"/>
+          <text value="Quemar Datos"/>
+        </properties>
+      </component>
+      <component id="79d84" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12666039"/>
+          <text value="Marcadores:"/>
+        </properties>
+      </component>
+      <component id="5d047" class="javax.swing.JLabel" binding="Equipo1">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14766149"/>
+          <text value="Equipo:"/>
+        </properties>
+      </component>
+      <component id="1cb5d" class="javax.swing.JTextField" binding="textFieldEquip1">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fd99e" class="javax.swing.JLabel" binding="Equipo2">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14766149"/>
+          <text value="Equipo:"/>
+        </properties>
+      </component>
+      <component id="8ee38" class="javax.swing.JTextField" binding="textFieldEquip2">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <scrollpane id="fc365">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="103d6" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="4210f" class="javax.swing.JTextField" binding="textFieldNomEquipo">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e5f85" class="javax.swing.JButton" binding="crearButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15264581"/>
+          <text value="Crear "/>
+        </properties>
+      </component>
+      <component id="32d17" class="javax.swing.JButton" binding="comenzarTorneoButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15264581"/>
+          <text value="Comenzar Torneo"/>
+        </properties>
+      </component>
+      <component id="d7264" class="javax.swing.JButton" binding="finalizarButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-15264581"/>
+          <text value="Finalizar"/>
+        </properties>
+      </component>
+      <component id="c460f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12666039"/>
+          <text value="Equipos"/>
+        </properties>
+      </component>
+      <component id="6de1d" class="javax.swing.JComboBox" binding="comboBoxNumEquipos">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="2"/>
+            <item value="4"/>
+            <item value="8"/>
+            <item value="16"/>
+            <item value="32"/>
+            <item value="64"/>
+          </model>
+        </properties>
+      </component>
+      <component id="a824c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12666039"/>
+          <foreground color="-14766149"/>
+          <text value="Mundial de Clubes"/>
+        </properties>
+      </component>
+      <component id="e81a0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-12666039"/>
+          <text value="Ingrese el nombre del Equipo"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
